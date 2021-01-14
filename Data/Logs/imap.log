@@ -1,0 +1,1337 @@
+1	2020-10-22T09:15:27.285	1	4	### IMAP failed to connect to 'exchange' on port 993. (secured)
+2	2020-10-22T09:15:48.488	1	4	### IMAP Connected to 'exchange.4d.com' on port 993. (secured)
+3	2020-10-22T09:15:49.080	1	4	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+4	2020-10-22T09:15:49.081	1	4	C > "A001 CAPABILITY"
+5	2020-10-22T09:15:49.084	1	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+6	2020-10-22T09:15:49.085	1	4	S < "A001 OK CAPABILITY completed."
+7	2020-10-22T09:15:49.085	1	4	C > "A002 AUTHENTICATE PLAIN"
+8	2020-10-22T09:15:49.088	1	4	S < "+ "
+9	2020-10-22T09:15:49.089	1	4	C > "************************************************"
+10	2020-10-22T09:15:49.255	1	4	S < "A002 OK AUTHENTICATE completed."
+11	2020-10-22T09:15:49.260	1	4	C > "A003 LIST "" "*""
+12	2020-10-22T09:15:49.343	1	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+13	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+14	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+15	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+16	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+17	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+18	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+19	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+20	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+21	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasChildren) "/" Divers"
+22	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+23	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+24	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+25	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+26	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+27	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+28	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+29	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+30	2020-10-22T09:15:49.344	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+31	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+32	2020-10-22T09:15:49.344	1	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+33	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+34	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Journal"
+35	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Notes"
+36	2020-10-22T09:15:49.345	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+37	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+38	2020-10-22T09:15:49.345	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+39	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+40	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+41	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasChildren) "/" Projets"
+42	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+43	2020-10-22T09:15:49.345	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+44	2020-10-22T09:15:49.345	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+45	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+46	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+47	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+48	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+49	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+50	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+51	2020-10-22T09:15:49.345	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+52	2020-10-22T09:15:49.346	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+53	2020-10-22T09:15:49.346	1	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+54	2020-10-22T09:15:49.346	1	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+55	2020-10-22T09:15:49.346	1	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+56	2020-10-22T09:15:49.346	1	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+57	2020-10-22T09:15:49.346	1	4	S < "A003 OK LIST completed."
+58	2020-10-22T09:15:50.428	1	4	C > "A004 SELECT INBOX"
+59	2020-10-22T09:15:51.340	1	4	S < "* 18012 EXISTS"
+60	2020-10-22T09:15:51.340	1	4	S < "* 110 RECENT"
+61	2020-10-22T09:15:51.340	1	4	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+62	2020-10-22T09:15:51.340	1	4	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+63	2020-10-22T09:15:51.340	1	4	S < "* OK [UNSEEN 17892] Is the first unseen message"
+64	2020-10-22T09:15:51.340	1	4	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+65	2020-10-22T09:15:51.340	1	4	S < "* OK [UIDNEXT 45164] The next unique identifier value"
+66	2020-10-22T09:15:51.340	1	4	S < "A004 OK [READ-WRITE] SELECT completed."
+67	2020-10-22T09:15:51.415	1	4	C > "A005 FETCH 18012:18012 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+68	2020-10-22T09:15:51.428	1	4	S < "* 18012 FETCH (UID 45163 INTERNALDATE "22-Oct-2020 09:03:24 +0200" RFC822.SIZE 19696 BODY[HEADER] {2504}"
+69	2020-10-22T09:15:51.428	1	4	S < Message data (2533 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Thu, 22 Oct 2020 09:03:24 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Thu, 22 Oct 2020 09:03:24 +0200
+Received: from filter5-out.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Thu, 22 Oct 2020 09:03:24 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by filter5-out.waycom.net with ESMTP id YaOWcjRDkMiZv10Z (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:03:23 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:3::2b3:c6e0:8d82])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 46D07620A5
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 07:03:23 +0000 (UTC)
+From: Gildas Falkenstein via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Test the latest v18 R5 Beta[Beta]
+Thread-Topic: [4D Forum] Test the latest v18 R5 Beta[Beta]
+Thread-Index: AQHWpsBlPKMsKV/JFEedGLaModJztKmjE9SA
+Date: Thu, 22 Oct 2020 09:03:23 +0200
+Message-ID: <topic/16065/43182@discuss.4d.com>
+References: <topic/16065@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/6ccb976081fecc17ab6d1e54d11f41b790fc3fffc297ea1cbc2dd12ae191750e>
+In-Reply-To: <topic/16065@discuss.4d.com>
+Reply-To: 4D Forum <x4d+078e2e7fa362f0135d6e1072424d7a79@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	3e89459b-ae91-41ad-d4bc-08d876589157
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <60F6DE304A7A7C428BD1E946D5ACF08A@4d.com>
+Content-Transfer-Encoding: base64
+
+)
+A005 OK FETCH completed.
+
+70	2020-10-22T09:17:01.308	1	4	C > "A006 APPEND INBOX {648}"
+71	2020-10-22T09:17:01.316	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:17:01 +0000
+Message-ID: <ED6E164CCFD44547AE3D093B24C708D4@4d.com>
+Content-Type: multipart/mixed;
+	boundary="335EF8D9A104AB4CBF3643AEB322BB13"
+
+--335EF8D9A104AB4CBF3643AEB322BB13
+Content-Type: multipart/alternative;
+	boundary="7FAE605D45335E45AD4F4A2DB36CEF59"
+
+
+--7FAE605D45335E45AD4F4A2DB36CEF59
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--7FAE605D45335E45AD4F4A2DB36CEF59
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--7FAE605D45335E45AD4F4A2DB36CEF59--
+
+--335EF8D9A104AB4CBF3643AEB322BB13--
+
+72	2020-10-22T09:17:01.427	1	4	S < "* 111 RECENT"
+73	2020-10-22T09:17:01.427	1	4	S < "* 18013 EXISTS"
+74	2020-10-22T09:17:01.427	1	4	S < "A006 OK [APPENDUID 14 45164] APPEND completed."
+219	2020-10-22T09:45:17.260	1	4	C > "A007 CLOSE"
+220	2020-10-22T09:45:17.261	1	4	### IMAP Failed to read data, error: srvr:42
+221	2020-10-22T09:45:17.261	1	4	### IMAP Failed to read data, error: srvr:42
+222	2020-10-22T09:45:17.261	1	4	### IMAP Connection closed
+1	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+79	2020-10-22T09:44:06.139	1	4	S < "A001 OK CAPABILITY completed."
+80	2020-10-22T09:44:06.139	1	4	C > "A002 AUTHENTICATE PLAIN"
+81	2020-10-22T09:44:06.143	1	4	S < "+ "
+82	2020-10-22T09:44:06.143	1	4	C > "************************************************"
+83	2020-10-22T09:44:06.187	1	4	S < "A002 NO AUTHENTICATE failed."
+84	2020-10-22T09:44:06.188	1	4	### IMAP Connection closed
+85	2020-10-22T09:44:13.282	1	4	### IMAP Connected to 'exchange.4d.com' on port 993. (secured)
+86	2020-10-22T09:44:13.390	1	4	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+87	2020-10-22T09:44:13.390	1	4	C > "A001 CAPABILITY"
+88	2020-10-22T09:44:13.394	1	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+89	2020-10-22T09:44:13.394	1	4	S < "A001 OK CAPABILITY completed."
+90	2020-10-22T09:44:13.394	1	4	C > "A002 AUTHENTICATE PLAIN"
+91	2020-10-22T09:44:13.398	1	4	S < "+ "
+92	2020-10-22T09:44:13.398	1	4	C > "************************************************"
+93	2020-10-22T09:44:13.542	1	4	S < "A002 OK AUTHENTICATE completed."
+94	2020-10-22T09:44:13.544	1	4	C > "A003 LIST "" "*""
+95	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+96	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+97	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+98	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+99	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+100	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+101	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+102	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+103	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+104	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" Divers"
+105	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+106	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+107	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+108	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+109	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+110	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+111	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+112	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+113	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+114	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+115	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+116	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+117	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Journal"
+118	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Notes"
+119	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+120	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+121	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+122	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+123	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+124	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasChildren) "/" Projets"
+125	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+126	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+127	2020-10-22T09:44:13.632	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+128	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+129	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+130	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+131	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+132	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+133	2020-10-22T09:44:13.632	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+134	2020-10-22T09:44:13.633	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+135	2020-10-22T09:44:13.633	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+136	2020-10-22T09:44:13.633	1	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+137	2020-10-22T09:44:13.633	1	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+138	2020-10-22T09:44:13.633	1	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+139	2020-10-22T09:44:13.633	1	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+140	2020-10-22T09:44:13.633	1	4	S < "A003 OK LIST completed."
+141	2020-10-22T09:44:15.711	1	4	C > "A004 SELECT INBOX"
+142	2020-10-22T09:44:16.319	1	4	S < "A004 NO Server Unavailable. 15"
+208	2020-10-22T09:44:34.992	1	4	C > "A005 LOGOUT"
+209	2020-10-22T09:44:34.995	1	4	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+210	2020-10-22T09:44:34.996	1	4	### IMAP Connection closed
+7	1	4	C > "A001 CAPABILITY"
+146	2020-10-22T09:44:33.210	1	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+147	2020-10-22T09:44:33.210	1	4	S < "A001 OK CAPABILITY completed."
+148	2020-10-22T09:44:33.210	1	4	C > "A002 AUTHENTICATE PLAIN"
+149	2020-10-22T09:44:33.213	1	4	S < "+ "
+150	2020-10-22T09:44:33.213	1	4	C > "************************************************"
+151	2020-10-22T09:44:33.357	1	4	S < "A002 OK AUTHENTICATE completed."
+152	2020-10-22T09:44:33.358	1	4	C > "A003 LIST "" "*""
+153	2020-10-22T09:44:33.431	1	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+154	2020-10-22T09:44:33.431	1	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+155	2020-10-22T09:44:33.431	1	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+156	2020-10-22T09:44:33.431	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+157	2020-10-22T09:44:33.431	1	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+158	2020-10-22T09:44:33.431	1	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+159	2020-10-22T09:44:33.431	1	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+160	2020-10-22T09:44:33.431	1	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+161	2020-10-22T09:44:33.431	1	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+162	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" Divers"
+163	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+164	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+165	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+166	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+167	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+168	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+169	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+170	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+171	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+172	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+173	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+174	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+175	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" Journal"
+176	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" Notes"
+177	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+178	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+179	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+180	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+181	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+182	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasChildren) "/" Projets"
+183	2020-10-22T09:44:33.432	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+184	2020-10-22T09:44:33.432	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+185	2020-10-22T09:44:33.433	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+186	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+187	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+188	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+189	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+190	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+191	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+192	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+193	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+194	2020-10-22T09:44:33.433	1	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+195	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+196	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+197	2020-10-22T09:44:33.433	1	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+198	2020-10-22T09:44:33.433	1	4	S < "A003 OK LIST completed."
+199	2020-10-22T09:44:34.527	1	4	C > "A004 SELECT INBOX"
+200	2020-10-22T09:44:34.990	1	4	S < "* 18020 EXISTS"
+201	2020-10-22T09:44:34.990	1	4	S < "* 7 RECENT"
+202	2020-10-22T09:44:34.990	1	4	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+203	2020-10-22T09:44:34.991	1	4	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+204	2020-10-22T09:44:34.991	1	4	S < "* OK [UNSEEN 17892] Is the first unseen message"
+205	2020-10-22T09:44:34.991	1	4	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+206	2020-10-22T09:44:34.991	1	4	S < "* OK [UIDNEXT 45172] The next unique identifier value"
+207	2020-10-22T09:44:34.991	1	4	S < "A004 OK [READ-WRITE] SELECT completed."
+211	2020-10-22T09:44:35.069	1	4	C > "A005 FETCH 18020:18020 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+212	2020-10-22T09:44:35.081	1	4	S < "* 18020 FETCH (UID 45171 INTERNALDATE "22-Oct-2020 09:44:15 +0200" RFC822.SIZE 22239 BODY[HEADER] {2596}"
+213	2020-10-22T09:44:35.081	1	4	S < Message data (2625 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Thu, 22 Oct 2020 09:44:15 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Thu, 22 Oct 2020 09:44:15 +0200
+Received: from filter5-out.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Thu, 22 Oct 2020 09:44:15 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by filter5-out.waycom.net with ESMTP id FF4totSp7A9QnCFc (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:44:12 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::22f:35e3:a32b])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id AB19B4CB6
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 07:44:11 +0000 (UTC)
+From: Vanessa TALBOT via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Listbox collection : info meta expression[French
+ Community]
+Thread-Topic: [4D Forum] Listbox collection : info meta expression[French
+ Community]
+Thread-Index: AQHWqEZKYyG+gflsHEyUMWXal5kho6mjHC+A
+Date: Thu, 22 Oct 2020 09:44:11 +0200
+Message-ID: <topic/10398/43189@discuss.4d.com>
+References: <topic/10398@discuss.4d.com> <topic/10398/43186@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/e948d38ea3f3fa96aaa565664048668d5e563dc4cb1325604c9c14e9bea5dcf4>
+In-Reply-To: <topic/10398/43186@discuss.4d.com>
+Reply-To: 4D Forum <x4d+cb44cc78392ba5ee2672423bfef29bd4@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	32adeeaf-ea08-4ea8-04c5-08d8765e4687
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <9CF13A2F65C6064691B9662FE1272B2E@4d.com>
+Content-Transfer-Encoding: base64
+
+)
+A005 OK FETCH completed.
+
+214	2020-10-22T09:44:56.971	1	4	C > "A006 APPEND INBOX {648}"
+215	2020-10-22T09:44:56.974	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:44:56 +0000
+Message-ID: <3B3E7C1E12473B40AEBCEDB065B63EEE@4d.com>
+Content-Type: multipart/mixed;
+	boundary="B058CAAE752F4247B08C76AF64A787AD"
+
+--B058CAAE752F4247B08C76AF64A787AD
+Content-Type: multipart/alternative;
+	boundary="B1A38229EB74664FBC14E870AED6A012"
+
+
+--B1A38229EB74664FBC14E870AED6A012
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--B1A38229EB74664FBC14E870AED6A012
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--B1A38229EB74664FBC14E870AED6A012--
+
+--B058CAAE752F4247B08C76AF64A787AD--
+
+216	2020-10-22T09:44:57.048	1	4	S < "* 8 RECENT"
+217	2020-10-22T09:44:57.048	1	4	S < "* 18021 EXISTS"
+218	2020-10-22T09:44:57.048	1	4	S < "A006 OK [APPENDUID 14 45172] APPEND completed."
+296	2020-10-22T09:47:03.103	1	4	C > "A007 CLOSE"
+297	2020-10-22T09:47:03.105	1	4	S < "A007 OK CLOSE completed."
+298	2020-10-22T09:47:03.105	1	4	C > "A008 LOGOUT"
+299	2020-10-22T09:47:03.109	1	4	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+300	2020-10-22T09:47:03.109	1	4	### IMAP Connection closed
+M AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+227	2020-10-22T09:46:22.256	1	4	S < "A001 OK CAPABILITY completed."
+228	2020-10-22T09:46:22.256	1	4	C > "A002 AUTHENTICATE PLAIN"
+229	2020-10-22T09:46:22.259	1	4	S < "+ "
+230	2020-10-22T09:46:22.259	1	4	C > "************************************************"
+231	2020-10-22T09:46:22.404	1	4	S < "A002 OK AUTHENTICATE completed."
+232	2020-10-22T09:46:22.405	1	4	C > "A003 LIST "" "*""
+233	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+234	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+235	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+236	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+237	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+238	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+239	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+240	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+241	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+242	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasChildren) "/" Divers"
+243	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+244	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+245	2020-10-22T09:46:22.476	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+246	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+247	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+248	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+249	2020-10-22T09:46:22.476	1	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+250	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+251	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+252	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+253	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+254	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+255	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Journal"
+256	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Notes"
+257	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+258	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+259	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+260	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+261	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+262	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasChildren) "/" Projets"
+263	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+264	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+265	2020-10-22T09:46:22.477	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+266	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+267	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+268	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+269	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+270	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+271	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+272	2020-10-22T09:46:22.477	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+273	2020-10-22T09:46:22.478	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+274	2020-10-22T09:46:22.478	1	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+275	2020-10-22T09:46:22.478	1	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+276	2020-10-22T09:46:22.478	1	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+277	2020-10-22T09:46:22.478	1	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+278	2020-10-22T09:46:22.478	1	4	S < "A003 OK LIST completed."
+279	2020-10-22T09:46:24.269	1	4	C > "A004 SELECT INBOX"
+280	2020-10-22T09:46:24.732	1	4	S < "* 18021 EXISTS"
+281	2020-10-22T09:46:24.732	1	4	S < "* 0 RECENT"
+282	2020-10-22T09:46:24.732	1	4	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+283	2020-10-22T09:46:24.733	1	4	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+284	2020-10-22T09:46:24.733	1	4	S < "* OK [UNSEEN 17892] Is the first unseen message"
+285	2020-10-22T09:46:24.733	1	4	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+286	2020-10-22T09:46:24.733	1	4	S < "* OK [UIDNEXT 45173] The next unique identifier value"
+287	2020-10-22T09:46:24.733	1	4	S < "A004 OK [READ-WRITE] SELECT completed."
+288	2020-10-22T09:46:24.790	1	4	C > "A005 FETCH 18021:18021 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+289	2020-10-22T09:46:24.852	1	4	S < "* 18021 FETCH (UID 45172 INTERNALDATE "22-Oct-2020 09:44:56 +0200" RFC822.SIZE 2342 BODY[HEADER] {450}"
+290	2020-10-22T09:46:24.852	1	4	S < Message data (479 bytes)
+MIME-Version: 1.0
+Subject:
+Thread-Index: AQHWqEc8Z0a0MDKu+ke4MGF3rtXXmQ==
+Date: Thu, 22 Oct 2020 09:44:56 +0200
+Message-ID: <3B3E7C1E12473B40AEBCEDB065B63EEE@4d.com>
+Content-Language: fr-FR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-exchange-imapappendstamp: EXCH16.ad2.4d.com (15.01.1713.009)
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+)
+A005 OK FETCH completed.
+
+291	2020-10-22T09:46:34.553	1	4	C > "A006 APPEND INBOX {663}"
+292	2020-10-22T09:46:34.556	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:46:34 +0000
+Message-ID: <144D88CDC957FE4DA2AD7F0A005BDAB4@4d.com>
+Subject: test
+Content-Type: multipart/mixed;
+	boundary="CB37B2D874E5C640958F96E81C2232E5"
+
+--CB37B2D874E5C640958F96E81C2232E5
+Content-Type: multipart/alternative;
+	boundary="08A65623A78DB24F80995A01449EB900"
+
+
+--08A65623A78DB24F80995A01449EB900
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--08A65623A78DB24F80995A01449EB900
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdA==
+--08A65623A78DB24F80995A01449EB900--
+
+--CB37B2D874E5C640958F96E81C2232E5--
+
+293	2020-10-22T09:46:34.659	1	4	S < "* 1 RECENT"
+294	2020-10-22T09:46:34.660	1	4	S < "* 18022 EXISTS"
+295	2020-10-22T09:46:34.660	1	4	S < "A006 OK [APPENDUID 14 45173] APPEND completed."
+301	2020-10-22T09:47:29.567	1	4	C > "A007 APPEND INBOX {686}"
+302	2020-10-22T09:47:29.571	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:47:29 +0000
+Message-ID: <AF4D1A6AA6A1C3418604A700EDF8D561@4d.com>
+Subject: test draft 
+Content-Type: multipart/mixed;
+	boundary="F6186B7FC5FAC9438B994A4E4A99DA06"
+
+--F6186B7FC5FAC9438B994A4E4A99DA06
+Content-Type: multipart/alternative;
+	boundary="D856E77E40052B4B9191068DA8FF885F"
+
+
+--D856E77E40052B4B9191068DA8FF885F
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCBkcmFmdA==
+--D856E77E40052B4B9191068DA8FF885F
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCBkcmFmdCA=
+--D856E77E40052B4B9191068DA8FF885F--
+
+--F6186B7FC5FAC9438B994A4E4A99DA06--
+
+303	2020-10-22T09:47:29.627	1	4	S < "* 2 RECENT"
+304	2020-10-22T09:47:29.627	1	4	S < "* 18023 EXISTS"
+305	2020-10-22T09:47:29.627	1	4	S < "A007 OK [APPENDUID 14 45174] APPEND completed."
+306	2020-10-22T09:47:31.244	1	4	C > "A008 APPEND INBOX (\Draft) {704}"
+307	2020-10-22T09:47:31.247	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:47:31 +0000
+Message-ID: <F2475930D0B15D4FA9676D0B4BD922C5@4d.com>
+Subject: test draft 
+Keywords: $draft
+Content-Type: multipart/mixed;
+	boundary="F722ADD371F16C4181B30B9B577CE73F"
+
+--F722ADD371F16C4181B30B9B577CE73F
+Content-Type: multipart/alternative;
+	boundary="B0B369E78F932E41836A036C5A653C86"
+
+
+--B0B369E78F932E41836A036C5A653C86
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCBkcmFmdA==
+--B0B369E78F932E41836A036C5A653C86
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCBkcmFmdCA=
+--B0B369E78F932E41836A036C5A653C86--
+
+--F722ADD371F16C4181B30B9B577CE73F--
+
+308	2020-10-22T09:47:31.290	1	4	S < "* 3 RECENT"
+309	2020-10-22T09:47:31.290	1	4	S < "* 18024 EXISTS"
+310	2020-10-22T09:47:31.290	1	4	S < "A008 OK [APPENDUID 14 45175] APPEND completed."
+311	2020-10-22T09:47:53.354	1	4	C > "A009 APPEND INBOX {665}"
+312	2020-10-22T09:47:53.357	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:47:53 +0000
+Message-ID: <630DDC1F6FDEF24F95BFE141A400590A@4d.com>
+Subject: test  
+Content-Type: multipart/mixed;
+	boundary="BA68FD67FA977141B8EE3B77DB453DC5"
+
+--BA68FD67FA977141B8EE3B77DB453DC5
+Content-Type: multipart/alternative;
+	boundary="CBB63EF00529CA4D9721C0C0BD480EAF"
+
+
+--CBB63EF00529CA4D9721C0C0BD480EAF
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCA=
+--CBB63EF00529CA4D9721C0C0BD480EAF
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+dGVzdCAg
+--CBB63EF00529CA4D9721C0C0BD480EAF--
+
+--BA68FD67FA977141B8EE3B77DB453DC5--
+
+313	2020-10-22T09:47:53.412	1	4	S < "* 4 RECENT"
+314	2020-10-22T09:47:53.412	1	4	S < "* 18025 EXISTS"
+315	2020-10-22T09:47:53.412	1	4	S < "* 18013 FETCH (FLAGS (\Seen))"
+316	2020-10-22T09:47:53.412	1	4	S < "* 18022 FETCH (FLAGS (\Seen \Recent))"
+317	2020-10-22T09:47:53.412	1	4	S < "A009 OK [APPENDUID 14 45176] APPEND completed."
+401	2020-10-22T14:57:59.845	1	4	### IMAP Failed to send request, error: srvr:2
+402	2020-10-22T14:57:59.845	1	4	### IMAP Failed to read data, error: srvr:42
+403	2020-10-22T14:57:59.845	1	4	### IMAP Failed to read data, error: srvr:42
+404	2020-10-22T14:57:59.846	1	4	### IMAP Connection closed
+4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+322	2020-10-22T09:57:14.202	1	4	S < "A001 OK CAPABILITY completed."
+323	2020-10-22T09:57:14.203	1	4	C > "A002 AUTHENTICATE PLAIN"
+324	2020-10-22T09:57:14.206	1	4	S < "+ "
+325	2020-10-22T09:57:14.206	1	4	C > "************************************************"
+326	2020-10-22T09:57:14.347	1	4	S < "A002 OK AUTHENTICATE completed."
+327	2020-10-22T09:57:14.348	1	4	C > "A003 LIST "" "*""
+328	2020-10-22T09:57:14.455	1	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+329	2020-10-22T09:57:14.455	1	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+330	2020-10-22T09:57:14.455	1	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+331	2020-10-22T09:57:14.455	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+332	2020-10-22T09:57:14.455	1	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+333	2020-10-22T09:57:14.455	1	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+334	2020-10-22T09:57:14.455	1	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+335	2020-10-22T09:57:14.455	1	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+336	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+337	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" Divers"
+338	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+339	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+340	2020-10-22T09:57:14.456	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+341	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+342	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+343	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+344	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+345	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+346	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+347	2020-10-22T09:57:14.456	1	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+348	2020-10-22T09:57:14.456	1	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+349	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+350	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" Journal"
+351	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" Notes"
+352	2020-10-22T09:57:14.456	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+353	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+354	2020-10-22T09:57:14.456	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+355	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+356	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+357	2020-10-22T09:57:14.456	1	4	S < "* LIST (\HasChildren) "/" Projets"
+358	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+359	2020-10-22T09:57:14.457	1	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+360	2020-10-22T09:57:14.457	1	4	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+361	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+362	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+363	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+364	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+365	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+366	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+367	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+368	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+369	2020-10-22T09:57:14.457	1	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+370	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+371	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+372	2020-10-22T09:57:14.457	1	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+373	2020-10-22T09:57:14.457	1	4	S < "A003 OK LIST completed."
+374	2020-10-22T09:57:15.816	1	4	C > "A004 SELECT INBOX"
+375	2020-10-22T09:57:16.336	1	4	S < "* 18021 EXISTS"
+376	2020-10-22T09:57:16.336	1	4	S < "* 1 RECENT"
+377	2020-10-22T09:57:16.336	1	4	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+378	2020-10-22T09:57:16.336	1	4	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+379	2020-10-22T09:57:16.336	1	4	S < "* OK [UNSEEN 17892] Is the first unseen message"
+380	2020-10-22T09:57:16.336	1	4	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+381	2020-10-22T09:57:16.336	1	4	S < "* OK [UIDNEXT 45180] The next unique identifier value"
+382	2020-10-22T09:57:16.337	1	4	S < "A004 OK [READ-WRITE] SELECT completed."
+383	2020-10-22T09:57:16.415	1	4	C > "A005 FETCH 18021:18021 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+384	2020-10-22T09:57:16.429	1	4	S < "* 18021 FETCH (UID 45179 INTERNALDATE "22-Oct-2020 09:54:13 +0200" RFC822.SIZE 16030 BODY[HEADER] {2880}"
+385	2020-10-22T09:57:16.429	1	4	S < Message data (2909 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Thu, 22 Oct 2020 09:54:13 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Thu, 22 Oct 2020 09:54:13 +0200
+Received: from filter5-out.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Thu, 22 Oct 2020 09:54:13 +0200
+Received: from smtp.ehc.adp.com (smtp.ehc.adp.com [195.200.255.124]) by filter5-out.waycom.net with ESMTP id MB3BhhCxGb4ugGsi (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:54:13 +0200 (CEST)
+Received: from pps.filterd (DCEU1PP03.europe.adp.com [127.0.0.1])
+	by DCEU1PP03.europe.adp.com (8.16.0.42/8.16.0.42) with SMTP id 09M7rfWu018580
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:54:12 +0200
+Received: from smtp-dc4.ehc.adp.com ([11.128.246.9])
+	by DCEU1PP03.europe.adp.com with ESMTP id 347mrbmwyc-1
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:54:12 +0200
+Received: from pps.filterd (dc4ppapp03.ehc.adp.com [127.0.0.1])
+	by dc4ppapp03.ehc.adp.com (8.16.0.43/8.16.0.43) with SMTP id 09M7mVqU001589
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:54:12 +0200
+Received: from lx2948.fr.ehc.adp.com (lx2948.admin.ehc.adp.com [11.128.0.210])
+	by dc4ppapp03.ehc.adp.com with ESMTP id 347pnybr25-1
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 09:54:12 +0200
+Received: by lx2948.fr.ehc.adp.com (Postfix, from userid 1002)
+	id A60E2101F1D; Thu, 22 Oct 2020 09:54:12 +0200 (CEST)
+From: "lekiosquerh.vision@adp.com" <lekiosquerh.vision@adp.com>
+To: =?iso-8859-1?Q?Fabrice_Mainguen=E9?= <Fabrice.Mainguene@4d.com>
+Subject: =?iso-8859-1?Q?Le_Kiosque_RH_-_Envoi_group=E9?=
+Thread-Topic: =?iso-8859-1?Q?Le_Kiosque_RH_-_Envoi_group=E9?=
+Thread-Index: AQHWqEiIuhVGdCS4ekuQzavMM9u0Bg==
+Date: Thu, 22 Oct 2020 09:54:12 +0200
+Message-ID: <20201022075412.A60E2101F1D@lx2948.fr.ehc.adp.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	df40ef54-5892-4381-a3a4-08d8765fab1d
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-ID: <C12CA0AA8B80344480D02ADB1B5670AA@4d.com>
+Content-Transfer-Encoding: quoted-printable
+
+)
+A005 OK FETCH completed.
+
+386	2020-10-22T09:57:28.355	1	4	C > "A006 APPEND INBOX {920}"
+387	2020-10-22T09:57:28.359	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:57:28 +0000
+Message-ID: <A8C9B34A9E96894CBAFE68A9CDA806E5@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="26A6B5329903CD45A2BFE355BD52DC2C"
+
+--26A6B5329903CD45A2BFE355BD52DC2C
+Content-Type: multipart/alternative;
+	boundary="6C3F69E21FFA4F47A52AA7BD62EBAD70"
+
+
+--6C3F69E21FFA4F47A52AA7BD62EBAD70
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--6C3F69E21FFA4F47A52AA7BD62EBAD70
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--6C3F69E21FFA4F47A52AA7BD62EBAD70--
+
+--26A6B5329903CD45A2BFE355BD52DC2C--
+
+388	2020-10-22T09:57:28.436	1	4	S < "* 2 RECENT"
+389	2020-10-22T09:57:28.436	1	4	S < "* 18022 EXISTS"
+390	2020-10-22T09:57:28.436	1	4	S < "A006 OK [APPENDUID 14 45180] APPEND completed."
+391	2020-10-22T09:57:33.874	1	4	C > "A007 APPEND INBOX (\Draft) {938}"
+392	2020-10-22T09:57:33.877	1	4	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 07:57:33 +0000
+Message-ID: <94BF6F7FEB4A1147BCC1FBF020352C41@4d.com>
+Subject: Append email to a mailbox with 4D
+Keywords: $draft
+Content-Type: multipart/mixed;
+	boundary="8FE3CC6CA040E54DA2C0E2C9FCFD6847"
+
+--8FE3CC6CA040E54DA2C0E2C9FCFD6847
+Content-Type: multipart/alternative;
+	boundary="8F0DD0CF10034848B069F6CAD43EF514"
+
+
+--8F0DD0CF10034848B069F6CAD43EF514
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--8F0DD0CF10034848B069F6CAD43EF514
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--8F0DD0CF10034848B069F6CAD43EF514--
+
+--8FE3CC6CA040E54DA2C0E2C9FCFD6847--
+
+393	2020-10-22T09:57:33.924	1	4	S < "* 3 RECENT"
+394	2020-10-22T09:57:33.924	1	4	S < "* 18023 EXISTS"
+395	2020-10-22T09:57:33.924	1	4	S < "A007 OK [APPENDUID 14 45181] APPEND completed."
+396	2020-10-22T09:57:38.995	1	4	C > "A008 CLOSE"
+397	2020-10-22T09:57:38.999	1	4	S < "A008 OK CLOSE completed."
+398	2020-10-22T09:57:38.999	1	4	C > "A009 LOGOUT"
+399	2020-10-22T09:57:39.003	1	4	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+400	2020-10-22T09:57:39.003	1	4	### IMAP Connection closed
+1	2020-10-22T15:35:38.267	3	10	### IMAP Connected to 'exchange.4d.com' on port 993. (secured)
+2	2020-10-22T15:35:38.852	3	10	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+3	2020-10-22T15:35:38.853	3	10	C > "A001 CAPABILITY"
+4	2020-10-22T15:35:38.857	3	10	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+5	2020-10-22T15:35:38.857	3	10	S < "A001 OK CAPABILITY completed."
+6	2020-10-22T15:35:38.860	3	10	C > "A002 AUTHENTICATE PLAIN"
+7	2020-10-22T15:35:38.863	3	10	S < "+ "
+8	2020-10-22T15:35:38.863	3	10	C > "************************************************"
+9	2020-10-22T15:35:39.023	3	10	S < "A002 OK AUTHENTICATE completed."
+10	2020-10-22T15:35:39.027	3	10	C > "A003 LIST "" "*""
+11	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+12	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+13	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+14	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+15	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+16	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+17	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+18	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+19	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+20	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasChildren) "/" Divers"
+21	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+22	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+23	2020-10-22T15:35:39.106	3	10	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+24	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+25	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasChildren) "/" Divers/test1"
+26	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+27	2020-10-22T15:35:39.106	3	10	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+28	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasChildren) "/" Divers/VPN"
+29	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+30	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+31	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+32	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+33	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" Journal"
+34	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" Notes"
+35	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+36	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+37	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+38	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+39	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+40	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasChildren) "/" Projets"
+41	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+42	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+43	2020-10-22T15:35:39.107	3	10	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+44	2020-10-22T15:35:39.107	3	10	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+45	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+46	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+47	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+48	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+49	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+50	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+51	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+52	2020-10-22T15:35:39.108	3	10	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+53	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+54	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" Twitter"
+55	2020-10-22T15:35:39.108	3	10	S < "* LIST (\HasNoChildren) "/" WordPress"
+56	2020-10-22T15:35:39.108	3	10	S < "A003 OK LIST completed."
+57	2020-10-22T15:35:40.657	3	10	C > "A004 SELECT INBOX"
+58	2020-10-22T15:35:41.155	3	10	S < "* 17920 EXISTS"
+59	2020-10-22T15:35:41.155	3	10	S < "* 20 RECENT"
+60	2020-10-22T15:35:41.155	3	10	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+61	2020-10-22T15:35:41.155	3	10	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+62	2020-10-22T15:35:41.156	3	10	S < "* OK [UNSEEN 17905] Is the first unseen message"
+63	2020-10-22T15:35:41.156	3	10	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+64	2020-10-22T15:35:41.156	3	10	S < "* OK [UIDNEXT 45230] The next unique identifier value"
+65	2020-10-22T15:35:41.156	3	10	S < "A004 OK [READ-WRITE] SELECT completed."
+66	2020-10-22T15:35:41.242	3	10	C > "A005 FETCH 17920:17920 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+67	2020-10-22T15:35:41.256	3	10	S < "* 17920 FETCH (UID 45229 INTERNALDATE "22-Oct-2020 15:34:41 +0200" RFC822.SIZE 22491 BODY[HEADER] {2576}"
+68	2020-10-22T15:35:41.256	3	10	S < Message data (2605 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Thu, 22 Oct 2020 15:34:41 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Thu, 22 Oct 2020 15:34:41 +0200
+Received: from filter5-out.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Thu, 22 Oct 2020 15:34:40 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by filter5-out.waycom.net with ESMTP id 5PPKhwqYkGImryDT (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 15:34:40 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:5::253:e285:d22e])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 3894F456F
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 13:34:40 +0000 (UTC)
+From: Cannon Smith via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] WYSIWYG Form Editor in Project Mode[Feature Request]
+Thread-Topic: [4D Forum] WYSIWYG Form Editor in Project Mode[Feature Request]
+Thread-Index: AQHWp4ag5ughvRNUXE2jXwcJ31HkK6mjf5oA
+Date: Thu, 22 Oct 2020 15:34:40 +0200
+Message-ID: <topic/14685/43229@discuss.4d.com>
+References: <topic/14685@discuss.4d.com> <topic/14685/43048@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/eedd0cc832236021e9a9a04d6fe51cb2b44712c9c63671ca316087b48fcb9572>
+In-Reply-To: <topic/14685/43048@discuss.4d.com>
+Reply-To: 4D Forum <x4d+6d3b31b8d27712c25158e3e5790ed9e6@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	9745df82-8b9b-47f9-4702-08d8768f3aae
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <19ED1FB1A4A7634595D8F4E07C1BBC02@4d.com>
+Content-Transfer-Encoding: base64
+
+)
+A005 OK FETCH completed.
+
+69	2020-10-22T15:35:57.902	3	10	C > "A006 APPEND Brouillons {920}"
+70	2020-10-22T15:35:57.906	3	10	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 13:35:57 +0000
+Message-ID: <0EFDD1FD375C6C4D8BFBF59AB0E37720@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="7DE043CD283F6346808882D0F8A3255D"
+
+--7DE043CD283F6346808882D0F8A3255D
+Content-Type: multipart/alternative;
+	boundary="0386F458AFF46945ABA0C563EE96A14E"
+
+
+--0386F458AFF46945ABA0C563EE96A14E
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--0386F458AFF46945ABA0C563EE96A14E
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--0386F458AFF46945ABA0C563EE96A14E--
+
+--7DE043CD283F6346808882D0F8A3255D--
+
+71	2020-10-22T15:35:57.952	3	10	S < "* 21 RECENT"
+72	2020-10-22T15:35:57.952	3	10	S < "* 17921 EXISTS"
+73	2020-10-22T15:35:57.952	3	10	S < "A006 OK [APPENDUID 17 1938] APPEND completed."
+74	2020-10-22T15:36:14.394	3	10	C > "A007 APPEND Brouillons (\Draft) {938}"
+75	2020-10-22T15:36:14.398	3	10	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 13:36:14 +0000
+Message-ID: <0D92C837870EF34F965C60F721790EEF@4d.com>
+Subject: Append email to a mailbox with 4D
+Keywords: $draft
+Content-Type: multipart/mixed;
+	boundary="3B6BB7DAE8254540904FF857A32BB1FF"
+
+--3B6BB7DAE8254540904FF857A32BB1FF
+Content-Type: multipart/alternative;
+	boundary="D4285A0A049DD64BBADAC33E330F1E1B"
+
+
+--D4285A0A049DD64BBADAC33E330F1E1B
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--D4285A0A049DD64BBADAC33E330F1E1B
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--D4285A0A049DD64BBADAC33E330F1E1B--
+
+--3B6BB7DAE8254540904FF857A32BB1FF--
+
+76	2020-10-22T15:36:14.427	3	10	S < "A007 OK [APPENDUID 17 1939] APPEND completed."
+77	2020-10-22T15:37:46.678	3	10	C > "A008 CLOSE"
+78	2020-10-22T15:37:46.682	3	10	S < "A008 OK CLOSE completed."
+79	2020-10-22T15:37:46.682	3	10	C > "A009 LOGOUT"
+80	2020-10-22T15:37:46.686	3	10	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+81	2020-10-22T15:37:46.686	3	10	### IMAP Connection closed
+82	2020-10-22T17:00:08.772	3	30	### IMAP Connected to 'exchange.4d.com' on port 993. (secured)
+83	2020-10-22T17:00:08.852	3	30	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+84	2020-10-22T17:00:08.852	3	30	C > "A001 CAPABILITY"
+85	2020-10-22T17:00:08.856	3	30	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+86	2020-10-22T17:00:08.856	3	30	S < "A001 OK CAPABILITY completed."
+87	2020-10-22T17:00:08.858	3	30	C > "A002 AUTHENTICATE PLAIN"
+88	2020-10-22T17:00:08.861	3	30	S < "+ "
+89	2020-10-22T17:00:08.861	3	30	C > "************************************************"
+90	2020-10-22T17:00:09.013	3	30	S < "A002 OK AUTHENTICATE completed."
+91	2020-10-22T17:00:09.017	3	30	C > "A003 LIST "" "*""
+92	2020-10-22T17:00:09.099	3	30	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+93	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+94	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+95	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+96	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+97	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+98	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+99	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+100	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+101	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasChildren) "/" Divers"
+102	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+103	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+104	2020-10-22T17:00:09.102	3	30	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+105	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+106	2020-10-22T17:00:09.102	3	30	S < "* LIST (\HasChildren) "/" Divers/test1"
+107	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+108	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+109	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasChildren) "/" Divers/VPN"
+110	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+111	2020-10-22T17:00:09.103	3	30	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+112	2020-10-22T17:00:09.103	3	30	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+113	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+114	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" Journal"
+115	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" Notes"
+116	2020-10-22T17:00:09.103	3	30	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+117	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+118	2020-10-22T17:00:09.103	3	30	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+119	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+120	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+121	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasChildren) "/" Projets"
+122	2020-10-22T17:00:09.103	3	30	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+123	2020-10-22T17:00:09.103	3	30	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+124	2020-10-22T17:00:09.104	3	30	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+125	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+126	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+127	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+128	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+129	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+130	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+131	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+132	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+133	2020-10-22T17:00:09.104	3	30	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+134	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+135	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" Twitter"
+136	2020-10-22T17:00:09.104	3	30	S < "* LIST (\HasNoChildren) "/" WordPress"
+137	2020-10-22T17:00:09.104	3	30	S < "A003 OK LIST completed."
+138	2020-10-22T17:00:16.395	3	30	C > "A004 SELECT INBOX"
+139	2020-10-22T17:00:16.924	3	30	S < "* 17915 EXISTS"
+140	2020-10-22T17:00:16.924	3	30	S < "* 13 RECENT"
+141	2020-10-22T17:00:16.924	3	30	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+142	2020-10-22T17:00:16.924	3	30	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+143	2020-10-22T17:00:16.924	3	30	S < "* OK [UNSEEN 17906] Is the first unseen message"
+144	2020-10-22T17:00:16.924	3	30	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+145	2020-10-22T17:00:16.924	3	30	S < "* OK [UIDNEXT 45255] The next unique identifier value"
+146	2020-10-22T17:00:16.924	3	30	S < "A004 OK [READ-WRITE] SELECT completed."
+147	2020-10-22T17:00:16.988	3	30	C > "A005 FETCH 17915:17915 (UID INTERNALDATE RFC822.SIZE BODY.PEEK[HEADER])"
+148	2020-10-22T17:00:17.001	3	30	S < "* 17915 FETCH (UID 45254 INTERNALDATE "22-Oct-2020 16:57:57 +0200" RFC822.SIZE 23091 BODY[HEADER] {2563}"
+149	2020-10-22T17:00:17.001	3	30	S < Message data (2592 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Thu, 22 Oct 2020 16:57:57 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Thu, 22 Oct 2020 16:57:57 +0200
+Received: from filter5-out.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Thu, 22 Oct 2020 16:57:57 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by filter5-out.waycom.net with ESMTP id Em1c43drNvX4LD5l (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 16:57:56 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:5::253:e285:d22e])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id B6A704E7F
+	for <fabrice.mainguene@4d.com>; Thu, 22 Oct 2020 14:57:56 +0000 (UTC)
+From: Roland Lannuzel via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] No more features![Feature Request]
+Thread-Topic: [4D Forum] No more features![Feature Request]
+Thread-Index: AQHWjF/N/0cd9MGp3Um2BcaJxImQH6lr1+cAgDfNHYCAAAdXgIAAINEA
+Date: Thu, 22 Oct 2020 16:57:56 +0200
+Message-ID: <topic/15620/43252@discuss.4d.com>
+References: <topic/15620@discuss.4d.com> <topic/15620/43215@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/0511cfbe775db288fd45f750931792e5caff7e4ed82204c4ce87a86a092e832c>
+In-Reply-To: <topic/15620/43215@discuss.4d.com>
+Reply-To: 4D Forum <x4d+1dd80759e24a4e4efa62e96f0a34f713@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	ff24ea8a-7116-4007-c600-08d8769adcc9
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <CA7E4DA1038C8847A8F7E391CF4BFAFA@4d.com>
+Content-Transfer-Encoding: base64
+
+)
+A005 OK FETCH completed.
+
+150	2020-10-22T17:01:03.849	3	30	C > "A006 APPEND Brouillons {920}"
+151	2020-10-22T17:01:03.852	3	30	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Thu, 22 Oct 2020 15:01:03 +0000
+Message-ID: <01961C57D9B49B458725D60804259B1A@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="1D8CBEBA2E1972478718F7FB4C60106A"
+
+--1D8CBEBA2E1972478718F7FB4C60106A
+Content-Type: multipart/alternative;
+	boundary="432E97538946F24DBFDD7CDC954526E3"
+
+
+--432E97538946F24DBFDD7CDC954526E3
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--432E97538946F24DBFDD7CDC954526E3
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: base64
+
+VGhpcyBlbWFpbCBpcyBzYXZlZCBvbiB5b3VyIG1haWwgc2VydmVyIHRoYW5rcyB0byB0aGUgSU1B
+UFRyYW5zcG9ydGVyLmFwcGVuZCgpIGZ1bmN0aW9uLg==
+--432E97538946F24DBFDD7CDC954526E3--
+
+--1D8CBEBA2E1972478718F7FB4C60106A--
+
+152	2020-10-22T17:01:03.929	3	30	S < "* 14 RECENT"
+153	2020-10-22T17:01:03.929	3	30	S < "* 17916 EXISTS"
+154	2020-10-22T17:01:03.929	3	30	S < "A006 OK [APPENDUID 17 1940] APPEND completed."
+155	2020-10-22T17:02:04.930	3	30	C > "A007 CLOSE"
+156	2020-10-22T17:02:04.935	3	30	S < "A007 OK CLOSE completed."
+157	2020-10-22T17:02:04.935	3	30	C > "A008 LOGOUT"
+158	2020-10-22T17:02:04.938	3	30	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+159	2020-10-22T17:02:04.938	3	30	### IMAP Connection closed
+1	2020-11-10T16:17:56.063	3	5	### IMAP Connected to 'exchange.4d.com' on port 993. (secured)
+2	2020-11-10T16:17:56.648	3	5	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+3	2020-11-10T16:17:56.650	3	5	C > "A001 CAPABILITY"
+4	2020-11-10T16:17:56.653	3	5	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+5	2020-11-10T16:17:56.661	3	5	S < "A001 OK CAPABILITY completed."
+6	2020-11-10T16:17:56.663	3	5	C > "A002 AUTHENTICATE PLAIN"
+7	2020-11-10T16:17:56.702	3	5	S < "+ "
+8	2020-11-10T16:17:56.702	3	5	C > "************************************************"
+9	2020-11-10T16:17:56.857	3	5	S < "A002 OK AUTHENTICATE completed."
+10	2020-11-10T16:17:56.858	3	5	C > "A003 LIST "" "*""
+11	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+12	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+13	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+14	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+15	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren \Drafts) "/" Brouillons"
+16	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+17	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+18	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+19	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+20	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" Divers"
+21	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+22	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+23	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" Divers/Entretien"
+24	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+25	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Divers/teamViewer"
+26	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" Divers/test1"
+27	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+28	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+29	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" Divers/VPN"
+30	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+31	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+32	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+33	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+34	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Journal"
+35	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Notes"
+36	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+37	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+38	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+39	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+40	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+41	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasChildren) "/" Projets"
+42	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+43	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+44	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" Projets/Blog"
+45	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+46	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+47	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+48	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+49	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+50	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+51	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+52	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+53	2020-11-10T16:17:56.935	3	5	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+54	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+55	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" Twitter"
+56	2020-11-10T16:17:56.935	3	5	S < "* LIST (\HasNoChildren) "/" WordPress"
+57	2020-11-10T16:17:56.935	3	5	S < "A003 OK LIST completed."
+58	2020-11-10T16:17:58.795	3	5	C > "A004 SELECT INBOX"
+59	2020-11-10T16:17:59.476	3	5	S < "* 18005 EXISTS"
+60	2020-11-10T16:17:59.476	3	5	S < "* 17 RECENT"
+61	2020-11-10T16:17:59.476	3	5	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+62	2020-11-10T16:17:59.476	3	5	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+63	2020-11-10T16:17:59.476	3	5	S < "* OK [UNSEEN 18003] Is the first unseen message"
+64	2020-11-10T16:17:59.476	3	5	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+65	2020-11-10T16:17:59.476	3	5	S < "* OK [UIDNEXT 46681] The next unique identifier value"
+66	2020-11-10T16:17:59.476	3	5	S < "A004 OK [READ-WRITE] SELECT completed."
+67	2020-11-10T16:17:59.531	3	5	C > "A005 FETCH 18005:18005 (UID INTERNALDATE RFC822.SIZE FLAGS BODY.PEEK[HEADER])"
+68	2020-11-10T16:17:59.546	3	5	S < "* 18005 FETCH (UID 46680 INTERNALDATE "10-Nov-2020 16:09:58 +0100" RFC822.SIZE 4473843 FLAGS (\Recent) BODY[HEADER] {1659}"
+69	2020-11-10T16:17:59.546	3	5	S < Message data (1688 bytes)
+MIME-Version: 1.0
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Tue, 10 Nov 2020 16:09:55 +0100
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Tue, 10 Nov 2020 16:09:53 +0100
+Received: from EXCH16.ad2.4d.com ([194.177.35.85]) by EXCH16.ad2.4d.com
+ ([194.177.35.85]) with mapi id 15.01.1713.009; Tue, 10 Nov 2020 16:09:53
+ +0100
+From: Nathalie Peltier <Nathalie.Peltier@4d.com>
+To: _4D_Vie Sociale <_4D_VieSociale@4d.com>
+Subject: =?Windows-1252?Q?[CSE]_RAPPEL_commande_group=E9e_chocolats?=
+Thread-Topic: =?Windows-1252?Q?[CSE]_RAPPEL_commande_group=E9e_chocolats?=
+Thread-Index: AQHWt3OKaJHYeLrzzUKA8hr/frAhbQ==
+Date: Tue, 10 Nov 2020 16:09:52 +0100
+Message-ID: <DBD0685B.17DA9E%nathalie.peltier@4d.com>
+Accept-Language: fr-FR, en-US
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach: yes
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id:
+	c539ff28-1a09-4555-4079-08d8858aad45
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: multipart/mixed;
+	boundary="_003_DBD0685B17DA9Enathaliepeltier4dcom_"
+
+)
+A005 OK FETCH completed.
+
+70	2020-11-10T16:18:19.658	3	5	C > "A006 APPEND INBOX {882}"
+71	2020-11-10T16:18:19.662	3	5	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Tue, 10 Nov 2020 15:18:19 +0000
+Message-ID: <95788C9682AA16428A98C2ED4E6DDF23@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="80B69BB363307D47A7C9CB5C0C80FE1D"
+
+--80B69BB363307D47A7C9CB5C0C80FE1D
+Content-Type: multipart/alternative;
+	boundary="C3265FB530707D4186A9BB074DD4D159"
+
+
+--C3265FB530707D4186A9BB074DD4D159
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--C3265FB530707D4186A9BB074DD4D159
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--C3265FB530707D4186A9BB074DD4D159--
+
+--80B69BB363307D47A7C9CB5C0C80FE1D--
+
+72	2020-11-10T16:18:19.748	3	5	S < "* 18 RECENT"
+73	2020-11-10T16:18:19.748	3	5	S < "* 18006 EXISTS"
+74	2020-11-10T16:18:19.748	3	5	S < "A006 OK [APPENDUID 14 46681] APPEND completed."
+75	2020-11-10T16:18:52.101	3	5	C > "A007 APPEND INBOX (\Draft) {882}"
+76	2020-11-10T16:18:52.104	3	5	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Tue, 10 Nov 2020 15:18:52 +0000
+Message-ID: <A746588415C52D41A5B9E722DA979696@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="52D84E60888CC04496B8EAE863BD7E5F"
+
+--52D84E60888CC04496B8EAE863BD7E5F
+Content-Type: multipart/alternative;
+	boundary="8B6AF723E2BE1E468FA3ADF888E2E923"
+
+
+--8B6AF723E2BE1E468FA3ADF888E2E923
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--8B6AF723E2BE1E468FA3ADF888E2E923
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--8B6AF723E2BE1E468FA3ADF888E2E923--
+
+--52D84E60888CC04496B8EAE863BD7E5F--
+
+77	2020-11-10T16:18:52.149	3	5	S < "* 19 RECENT"
+78	2020-11-10T16:18:52.150	3	5	S < "* 18007 EXISTS"
+79	2020-11-10T16:18:52.150	3	5	S < "* 18003 FETCH (FLAGS (\Seen \Recent))"
+80	2020-11-10T16:18:52.150	3	5	S < "A007 OK [APPENDUID 14 46682] APPEND completed."
+81	2020-11-10T16:29:13.581	3	5	C > "A008 APPEND INBOX (\Draft) {882}"
+82	2020-11-10T16:29:13.584	3	5	S < "+ Ready for additional command text."
+MIME-Version: 1.0
+Date: Tue, 10 Nov 2020 15:29:13 +0000
+Message-ID: <EA2888772A7F4D49AAB7D9044866388A@4d.com>
+Subject: Append email to a mailbox with 4D
+Content-Type: multipart/mixed;
+	boundary="0BBBE62A5692304CBCD70EF251434421"
+
+--0BBBE62A5692304CBCD70EF251434421
+Content-Type: multipart/alternative;
+	boundary="46EEABDACE8C6346AF5DB0EA31F49EFD"
+
+
+--46EEABDACE8C6346AF5DB0EA31F49EFD
+Content-Type: text/plain
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--46EEABDACE8C6346AF5DB0EA31F49EFD
+Content-Type: text/html
+	; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+This email is saved on your mail server thanks to the IMAP_transporter.appen=
+d( ) function.
+--46EEABDACE8C6346AF5DB0EA31F49EFD--
+
+--0BBBE62A5692304CBCD70EF251434421--
+
+83	2020-11-10T16:29:13.630	3	5	S < "* 19 RECENT"
+84	2020-11-10T16:29:13.630	3	5	S < "* 18007 EXPUNGE"
+85	2020-11-10T16:29:13.630	3	5	S < "* 18007 EXISTS"
+86	2020-11-10T16:29:13.630	3	5	S < "* 18006 FETCH (FLAGS (\Seen \Recent))"
+87	2020-11-10T16:29:13.630	3	5	S < "A008 OK [APPENDUID 14 46684] APPEND completed."
+88	2020-11-10T16:48:10.996	3	5	C > "A009 CLOSE"
+89	2020-11-10T16:48:10.997	3	5	### IMAP Failed to read data, error: srvr:42
+90	2020-11-10T16:48:10.997	3	5	### IMAP Failed to read data, error: srvr:42
+91	2020-11-10T16:48:10.997	3	5	### IMAP Connection closed
